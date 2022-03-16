@@ -12,7 +12,7 @@ const UserCard = (props: Twitter.User) => {
     public_metrics,
   } = props;
   return (
-    <Box maxW="lg" borderWidth="1px" margin="3.5" borderRadius="lg">
+    <Box maxW="lg" borderWidth="1px" boxShadow="md" margin="3.5" borderRadius="lg">
       <Box p="6">
         <Flex alignSelf="center" align="center" margin="1.5" >
           <Image src={profile_image_url || ''} alt="twit-image" />
